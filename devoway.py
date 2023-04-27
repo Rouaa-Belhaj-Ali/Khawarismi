@@ -32,6 +32,19 @@ else:
 
 
 
+#here another way to do it shorter 
+
+import cmath
+
+def khawarizmi():
+    print("Enter the coefficients of the quadratic equation ax^2 + bx + c = 0: ")
+    a, b, c = map(float, input().split())
+    d = b**2 - 4*a*c
+    r1 = (-b + cmath.sqrt(d)) / (2*a)
+    r2 = (-b - cmath.sqrt(d)) / (2*a)
+    print("The roots of the quadratic equation are:", r1, "and", r2)
+
+
 
 
 
