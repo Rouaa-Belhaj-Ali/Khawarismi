@@ -44,7 +44,7 @@ def khawarizmi():
     r2 = (-b - cmath.sqrt(d)) / (2*a)
     print("The roots of the quadratic equation are:", r1, "and", r2)
 
-
+#you need to call the khawarizmi function every time yyou run this
 
 
 
